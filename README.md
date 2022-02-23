@@ -10,9 +10,6 @@
   <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/Nopock/Grief-Bot" />
   </a>
-  <a href="https://twitter.com/Nopocks" target="_blank">
-    <img alt="Twitter: Nopocks" src="https://img.shields.io/twitter/follow/Nopocks.svg?style=social" />
-  </a>
 </p>
 
 > This project is for educational use only, I do not condone the use of this on any server. 
@@ -46,5 +43,3 @@ Give a ⭐️ if this project helped you!
 Copyright © 2022 [Nopox, Embry_](https://github.com/Nopock).<br />
 This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
