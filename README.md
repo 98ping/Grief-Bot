@@ -7,9 +7,6 @@
   <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/Nopock/Grief-Bot" />
-  </a>
 </p>
 
 > This project is for educational use only, I do not condone the use of this on any server. 
@@ -32,7 +29,7 @@ https://github.com/Nopock/Grief-Bot/wiki
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/kefranabg/readme-md-generator/issues). You can also take a look at the [contributing guide](https://github.com/kefranabg/readme-md-generator/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Nopock/Grief-Bot/issues). You can also take a look at the [contributing guide](https://github.com/Nopock/Grief-Bot/blob/master/CONTRIBUTING.md).
 
 ## Show your support
 
@@ -41,5 +38,3 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2022 [Nopox, Embry_](https://github.com/Nopock).<br />
-This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
-
