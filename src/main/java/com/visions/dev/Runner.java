@@ -18,7 +18,7 @@ import java.util.EnumSet;
 public class Runner {
     public static void main(String[] args) throws LoginException {
 
-        String token = "bot token here";
+        String token = "Your token";
         EnumSet<GatewayIntent> intents = EnumSet.of(
                 GatewayIntent.GUILD_MESSAGES,
                 GatewayIntent.GUILD_BANS,
@@ -42,7 +42,7 @@ public class Runner {
 
 
 
-        builder.setOwnerId("Your discord id here!");
+        builder.setOwnerId("Your discord id");
         builder.setPrefix(";");
 
 
@@ -52,7 +52,6 @@ public class Runner {
 
         JDA jda = JDABuilder.createLight(token, intents)
                 .setStatus(OnlineStatus.DO_NOT_DISTURB)
-                .enableCache(CacheFlag.VOICE_STATE)
                 .enableCache(CacheFlag.ONLINE_STATUS)
                 .enableCache(CacheFlag.MEMBER_OVERRIDES)
                 .enableCache(CacheFlag.CLIENT_STATUS)

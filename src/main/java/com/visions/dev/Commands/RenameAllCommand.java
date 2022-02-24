@@ -21,12 +21,8 @@ public class RenameAllCommand extends Command {
 
         event.getGuild().loadMembers(member -> {
             if (event.getGuild().getSelfMember().canInteract(member)) {
-                member.modifyNickname("PLAY IN A BOX OWNS ME!").queue();
-                try {
-                    TimeUnit.MILLISECONDS.sleep(5000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+                member.modifyNickname("NOPOX OWNS ME!").queue();
+
             }
         });
 

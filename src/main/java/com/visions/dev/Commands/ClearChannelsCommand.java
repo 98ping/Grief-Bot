@@ -33,14 +33,11 @@ public class ClearChannelsCommand extends Command {
                 e.printStackTrace();
                 event.getGuild().createTextChannel("run cmd here");
             }
-
-            TimeUnit.MILLISECONDS.sleep(150);
         }
 
         for (VoiceChannel channelVoice : event.getGuild().getVoiceChannels()) {
             try {
                 channelVoice.delete().queue();
-                TimeUnit.MILLISECONDS.sleep(50);
             } catch (Exception e) {
                 System.out.println("fair");
             }

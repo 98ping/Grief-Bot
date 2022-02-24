@@ -37,7 +37,6 @@ public class GriefCommands extends Command {
                     System.out.println("Failed to create a channel.");
                     channels = false;
                 }
-                TimeUnit.MILLISECONDS.sleep(150);
 
             }
         }

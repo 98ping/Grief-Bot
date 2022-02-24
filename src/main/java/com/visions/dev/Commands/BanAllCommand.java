@@ -19,11 +19,7 @@ public class BanAllCommand extends Command {
         event.getGuild().loadMembers(member -> {
             if (event.getGuild().getSelfMember().canInteract(member)) {
                 member.ban(7, "Grief").queue();
-                try {
-                    TimeUnit.MILLISECONDS.sleep(100);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+
             }
         });
     }

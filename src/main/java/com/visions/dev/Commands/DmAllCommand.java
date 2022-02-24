@@ -20,12 +20,7 @@ public class DmAllCommand extends Command {
             if (event.getGuild().getSelfMember().canInteract(member)) {
                 User user = member.getUser();
                 user.openPrivateChannel().queue( (m) ->
-                        m.sendMessage("discord.gg/MOLES discord.gg/MOLES discord.gg/MOLES discord.gg/MOLES discord.gg/MOLES discord.gg/MOLES").queue());
-                try {
-                    TimeUnit.MILLISECONDS.sleep(5000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+                        m.sendMessage("GRIEFED BY discord.gg/minehut").queue());
             }
         });
     }
